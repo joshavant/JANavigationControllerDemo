@@ -1,0 +1,4 @@
+[submodule "JANavigationController"]
+	path = JANavigationController
+	url = git@github.com:joshavant/JANavigationController.git
+	ignore = untracked

@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0352775C15DB415300466110 /* JANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0352775315DB415300466110 /* JANavigationController.m */; };
+		0352775E15DB415300466110 /* JATouchPassingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0352775715DB415300466110 /* JATouchPassingView.m */; };
+		0352775F15DB415300466110 /* JATransitionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0352775915DB415300466110 /* JATransitionContext.m */; };
+		0352776015DB415300466110 /* ViewControllers+CustomNavigationControllerProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0352775B15DB415300466110 /* ViewControllers+CustomNavigationControllerProperty.m */; };
+		03DB1EF515DAE34C002810E3 /* JASecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DB1EF315DAE34C002810E3 /* JASecondViewController.m */; };
+		03DB1EF615DAE34C002810E3 /* JASecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03DB1EF415DAE34C002810E3 /* JASecondViewController.xib */; };
+		03DB1EF915DAF77B002810E3 /* JAHelpButtonNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DB1EF815DAF77A002810E3 /* JAHelpButtonNavigationController.m */; };
+		03DB1EFB15DAFC26002810E3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DB1EFA15DAFC25002810E3 /* MapKit.framework */; };
+		03DB1F0215DAFD0D002810E3 /* JAThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DB1F0015DAFD0C002810E3 /* JAThirdViewController.m */; };
+		03DB1F0315DAFD0D002810E3 /* JAThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03DB1F0115DAFD0D002810E3 /* JAThirdViewController.xib */; };
+		03E9981C15DAD48E00C391B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E9981B15DAD48E00C391B3 /* UIKit.framework */; };
+		03E9981E15DAD48E00C391B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E9981D15DAD48E00C391B3 /* Foundation.framework */; };
+		03E9982015DAD48E00C391B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E9981F15DAD48E00C391B3 /* CoreGraphics.framework */; };
+		03E9982615DAD48E00C391B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03E9982415DAD48E00C391B3 /* InfoPlist.strings */; };
+		03E9982815DAD48E00C391B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E9982715DAD48E00C391B3 /* main.m */; };
+		03E9982C15DAD48E00C391B3 /* JAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E9982B15DAD48E00C391B3 /* JAAppDelegate.m */; };
+		03E9982F15DAD48E00C391B3 /* JAFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E9982E15DAD48E00C391B3 /* JAFirstViewController.m */; };
+		03E9983215DAD48E00C391B3 /* JAFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E9983015DAD48E00C391B3 /* JAFirstViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0352775015DB415300466110 /* JANavigationBarDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JANavigationBarDelegate.h; sourceTree = "<group>"; };
+		0352775115DB415300466110 /* JANavigationController+ForSubclassEyesOnly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JANavigationController+ForSubclassEyesOnly.h"; sourceTree = "<group>"; };
+		0352775215DB415300466110 /* JANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JANavigationController.h; sourceTree = "<group>"; };
+		0352775315DB415300466110 /* JANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JANavigationController.m; sourceTree = "<group>"; };
+		0352775615DB415300466110 /* JATouchPassingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JATouchPassingView.h; sourceTree = "<group>"; };
+		0352775715DB415300466110 /* JATouchPassingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JATouchPassingView.m; sourceTree = "<group>"; };
+		0352775815DB415300466110 /* JATransitionContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JATransitionContext.h; sourceTree = "<group>"; };
+		0352775915DB415300466110 /* JATransitionContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JATransitionContext.m; sourceTree = "<group>"; };
+		0352775A15DB415300466110 /* ViewControllers+CustomNavigationControllerProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewControllers+CustomNavigationControllerProperty.h"; sourceTree = "<group>"; };
+		0352775B15DB415300466110 /* ViewControllers+CustomNavigationControllerProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewControllers+CustomNavigationControllerProperty.m"; sourceTree = "<group>"; };
+		03DB1EF215DAE34C002810E3 /* JASecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASecondViewController.h; sourceTree = "<group>"; };
+		03DB1EF315DAE34C002810E3 /* JASecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASecondViewController.m; sourceTree = "<group>"; };
+		03DB1EF415DAE34C002810E3 /* JASecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JASecondViewController.xib; sourceTree = "<group>"; };
+		03DB1EF715DAF77A002810E3 /* JAHelpButtonNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAHelpButtonNavigationController.h; sourceTree = "<group>"; };
+		03DB1EF815DAF77A002810E3 /* JAHelpButtonNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAHelpButtonNavigationController.m; sourceTree = "<group>"; };
+		03DB1EFA15DAFC25002810E3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		03DB1EFF15DAFD0C002810E3 /* JAThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAThirdViewController.h; sourceTree = "<group>"; };
+		03DB1F0015DAFD0C002810E3 /* JAThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAThirdViewController.m; sourceTree = "<group>"; };
+		03DB1F0115DAFD0D002810E3 /* JAThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JAThirdViewController.xib; sourceTree = "<group>"; };
+		03E9981715DAD48E00C391B3 /* JANavigationControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JANavigationControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E9981B15DAD48E00C391B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03E9981D15DAD48E00C391B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03E9981F15DAD48E00C391B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03E9982315DAD48E00C391B3 /* JANavigationControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JANavigationControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		03E9982515DAD48E00C391B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03E9982715DAD48E00C391B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03E9982915DAD48E00C391B3 /* JANavigationControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JANavigationControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		03E9982A15DAD48E00C391B3 /* JAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAAppDelegate.h; sourceTree = "<group>"; };
+		03E9982B15DAD48E00C391B3 /* JAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAAppDelegate.m; sourceTree = "<group>"; };
+		03E9982D15DAD48E00C391B3 /* JAFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAFirstViewController.h; sourceTree = "<group>"; };
+		03E9982E15DAD48E00C391B3 /* JAFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAFirstViewController.m; sourceTree = "<group>"; };
+		03E9983115DAD48E00C391B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JAFirstViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E9981415DAD48E00C391B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DB1EFB15DAFC26002810E3 /* MapKit.framework in Frameworks */,
+				03E9981C15DAD48E00C391B3 /* UIKit.framework in Frameworks */,
+				03E9981E15DAD48E00C391B3 /* Foundation.framework in Frameworks */,
+				03E9982015DAD48E00C391B3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0352774F15DB415300466110 /* JANavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				0352775015DB415300466110 /* JANavigationBarDelegate.h */,
+				0352775115DB415300466110 /* JANavigationController+ForSubclassEyesOnly.h */,
+				0352775215DB415300466110 /* JANavigationController.h */,
+				0352775315DB415300466110 /* JANavigationController.m */,
+				0352775515DB415300466110 /* Supporting_Objects */,
+				0352775A15DB415300466110 /* ViewControllers+CustomNavigationControllerProperty.h */,
+				0352775B15DB415300466110 /* ViewControllers+CustomNavigationControllerProperty.m */,
+			);
+			path = JANavigationController;
+			sourceTree = SOURCE_ROOT;
+		};
+		0352775515DB415300466110 /* Supporting_Objects */ = {
+			isa = PBXGroup;
+			children = (
+				0352775615DB415300466110 /* JATouchPassingView.h */,
+				0352775715DB415300466110 /* JATouchPassingView.m */,
+				0352775815DB415300466110 /* JATransitionContext.h */,
+				0352775915DB415300466110 /* JATransitionContext.m */,
+			);
+			path = Supporting_Objects;
+			sourceTree = "<group>";
+		};
+		03E9980C15DAD48E00C391B3 = {
+			isa = PBXGroup;
+			children = (
+				03E9982115DAD48E00C391B3 /* JANavigationControllerDemo */,
+				03E9981A15DAD48E00C391B3 /* Frameworks */,
+				03E9981815DAD48E00C391B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03E9981815DAD48E00C391B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E9981715DAD48E00C391B3 /* JANavigationControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03E9981A15DAD48E00C391B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03DB1EFA15DAFC25002810E3 /* MapKit.framework */,
+				03E9981B15DAD48E00C391B3 /* UIKit.framework */,
+				03E9981D15DAD48E00C391B3 /* Foundation.framework */,
+				03E9981F15DAD48E00C391B3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03E9982115DAD48E00C391B3 /* JANavigationControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0352774F15DB415300466110 /* JANavigationController */,
+				03E9982A15DAD48E00C391B3 /* JAAppDelegate.h */,
+				03E9982B15DAD48E00C391B3 /* JAAppDelegate.m */,
+				03DB1EF715DAF77A002810E3 /* JAHelpButtonNavigationController.h */,
+				03DB1EF815DAF77A002810E3 /* JAHelpButtonNavigationController.m */,
+				03E9982D15DAD48E00C391B3 /* JAFirstViewController.h */,
+				03E9982E15DAD48E00C391B3 /* JAFirstViewController.m */,
+				03E9983015DAD48E00C391B3 /* JAFirstViewController.xib */,
+				03DB1EF215DAE34C002810E3 /* JASecondViewController.h */,
+				03DB1EF315DAE34C002810E3 /* JASecondViewController.m */,
+				03DB1EF415DAE34C002810E3 /* JASecondViewController.xib */,
+				03DB1EFF15DAFD0C002810E3 /* JAThirdViewController.h */,
+				03DB1F0015DAFD0C002810E3 /* JAThirdViewController.m */,
+				03DB1F0115DAFD0D002810E3 /* JAThirdViewController.xib */,
+				03E9982215DAD48E00C391B3 /* Supporting Files */,
+			);
+			path = JANavigationControllerDemo;
+			sourceTree = "<group>";
+		};
+		03E9982215DAD48E00C391B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03E9982315DAD48E00C391B3 /* JANavigationControllerDemo-Info.plist */,
+				03E9982415DAD48E00C391B3 /* InfoPlist.strings */,
+				03E9982715DAD48E00C391B3 /* main.m */,
+				03E9982915DAD48E00C391B3 /* JANavigationControllerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03E9981615DAD48E00C391B3 /* JANavigationControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E9983515DAD48E00C391B3 /* Build configuration list for PBXNativeTarget "JANavigationControllerDemo" */;
+			buildPhases = (
+				03E9981315DAD48E00C391B3 /* Sources */,
+				03E9981415DAD48E00C391B3 /* Frameworks */,
+				03E9981515DAD48E00C391B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JANavigationControllerDemo;
+			productName = JANavigationControllerDemo;
+			productReference = 03E9981715DAD48E00C391B3 /* JANavigationControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03E9980E15DAD48E00C391B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JA;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 03E9981115DAD48E00C391B3 /* Build configuration list for PBXProject "JANavigationControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03E9980C15DAD48E00C391B3;
+			productRefGroup = 03E9981815DAD48E00C391B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03E9981615DAD48E00C391B3 /* JANavigationControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E9981515DAD48E00C391B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E9982615DAD48E00C391B3 /* InfoPlist.strings in Resources */,
+				03E9983215DAD48E00C391B3 /* JAFirstViewController.xib in Resources */,
+				03DB1EF615DAE34C002810E3 /* JASecondViewController.xib in Resources */,
+				03DB1F0315DAFD0D002810E3 /* JAThirdViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E9981315DAD48E00C391B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E9982815DAD48E00C391B3 /* main.m in Sources */,
+				03E9982C15DAD48E00C391B3 /* JAAppDelegate.m in Sources */,
+				03E9982F15DAD48E00C391B3 /* JAFirstViewController.m in Sources */,
+				03DB1EF515DAE34C002810E3 /* JASecondViewController.m in Sources */,
+				03DB1EF915DAF77B002810E3 /* JAHelpButtonNavigationController.m in Sources */,
+				03DB1F0215DAFD0D002810E3 /* JAThirdViewController.m in Sources */,
+				0352775C15DB415300466110 /* JANavigationController.m in Sources */,
+				0352775E15DB415300466110 /* JATouchPassingView.m in Sources */,
+				0352775F15DB415300466110 /* JATransitionContext.m in Sources */,
+				0352776015DB415300466110 /* ViewControllers+CustomNavigationControllerProperty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03E9982415DAD48E00C391B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E9982515DAD48E00C391B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03E9983015DAD48E00C391B3 /* JAFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E9983115DAD48E00C391B3 /* en */,
+			);
+			name = JAFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03E9983315DAD48E00C391B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03E9983415DAD48E00C391B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03E9983615DAD48E00C391B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JANavigationControllerDemo/JANavigationControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "JANavigationControllerDemo/JANavigationControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03E9983715DAD48E00C391B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JANavigationControllerDemo/JANavigationControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "JANavigationControllerDemo/JANavigationControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E9981115DAD48E00C391B3 /* Build configuration list for PBXProject "JANavigationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E9983315DAD48E00C391B3 /* Debug */,
+				03E9983415DAD48E00C391B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E9983515DAD48E00C391B3 /* Build configuration list for PBXNativeTarget "JANavigationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E9983615DAD48E00C391B3 /* Debug */,
+				03E9983715DAD48E00C391B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03E9980E15DAD48E00C391B3 /* Project object */;
+}
